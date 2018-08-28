@@ -1,3 +1,6 @@
+# Important notice
+This is a fork from https://github.com/qetza/vsts-xdttransform-task all credits go to the original author. Please donate to him for his awesome work. My work is only a poor implementation for wildcard support.
+
 [![Donate](images/donate.png)](https://www.paypal.me/grouchon/5)
 
 # XDT transform task

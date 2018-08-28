@@ -1,14 +1,14 @@
 {
     "manifestVersion": 1,
-    "id": "xdttransform",
-    "name": "XDT Transform",
-    "version": "2.1.0",
+    "id": "website-transform",
+    "name": "Website Transform",
+    "version": "3.0.1",
     "public": true,
-    "publisher": "qetza",
+    "publisher": "luuksommers",
     "targets": [
         { "id": "Microsoft.VisualStudio.Services" }
     ],
-    "description": "Task to apply XDT transform on XML files.",
+    "description": "Task to apply XDT transform on XML files. This is a fork from the original from https://github.com/qetza/vsts-xdttransform-task with wildcard support",
     "categories": [
         "Build and release"
     ],
@@ -20,7 +20,7 @@
         "configuration"
     ],
     "links": {
-        "support": { "uri": "https://github.com/qetza/vsts-xdttransform-task/issues" }
+        "support": { "uri": "https://github.com/luuksommers/vsts-website-transform/issues" }
     },
     "icons": {
         "default": "images/extension-icon.png"
@@ -34,7 +34,7 @@
     ],
     "repository": {
         "type": "git",
-        "uri": "https://github.com/qetza/vsts-xdttransform-task"
+        "uri": "https://github.com/luuksommers/vsts-website-transform"
     },
     "content": {
         "details": { "path": "README.md" },
@@ -49,7 +49,7 @@
     ],
     "contributions": [
         {
-            "id": "xdttransform-task",
+            "id": "website-transform-task",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"

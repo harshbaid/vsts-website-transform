@@ -1,18 +1,18 @@
 {
-    "id": "98012758-C053-475D-9D6A-FD0773C39E09",
-    "name": "xdttransform",
-    "friendlyName": "XDT Transform",
+    "id": "bd198b0e-a866-420e-8bb6-192830319a27",
+    "name": "website-transform-task",
+    "friendlyName": "Website Transform",
     "description": "Apply XDT transforms on XML files",
-    "helpMarkDown": "[More Information](https://github.com/qetza/vsts-xdttransform-task#readme)",
+    "helpMarkDown": "[More Information](https://github.com/luuksommers/vsts-website-transform#readme)",
     "category": "Utility",
     "visibility": [
         "Build",
         "Release"
     ],
-    "author": "Guillaume Rouchon",
+    "author": "Guillaume Rouchon / Luuk Sommers",
     "version": {
-        "Major": 2,
-        "Minor": 1,
+        "Major": 3,
+        "Minor": 0,
         "Patch": 0
     },
     "minimumAgentVersion": "1.92.0",
